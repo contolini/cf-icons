@@ -6,11 +6,7 @@
 *.exe
 *.o
 *.so
-_site/
-dist/
-src/static/css/*.css
-src/static/fonts
-src/static/js/main*.js
+*.pyc
 
 # Packages #
 ############
@@ -38,15 +34,30 @@ src/static/js/main*.js
 ._*
 .Spotlight-V100
 .Trashes
-Icon?
 ehthumbs.db
 Thumbs.db
 
-# Grunt.js #
-############
+# Built assets #
+################
+dist
+src/bundle.js
+src/vendor
+src/fonts
+coverage
+.coverrun
+
+# IP #
+######
+ip
+config.js
+config.json
+test/browser_testing/features/environment.cfg
+
+# node #
+########
+npm-debug.log
 node_modules/
 
-# Bower packages #
-##################
-bower_components/
-src/vendor/
+# Floobits #
+############
+.floo

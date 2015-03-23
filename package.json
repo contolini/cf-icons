@@ -1,12 +1,40 @@
 {
+  "name": "cf-icons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/Icon.jsx",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "scriptPreprocessor": "test_preprocessor.js",
+    "rootDir": "src",
+    "unmockedModulePathPatterns": [
+      "node_modules/react"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/contolini/cf-icons.git"
+  },
+  "author": "",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/contolini/cf-icons/issues"
+  },
+  "homepage": "https://github.com/contolini/cf-icons",
   "devDependencies": {
     "cf-component-demo": "git://github.com/cfpb/cf-component-demo.git#0.9.1",
     "cf-grunt-config": "~0.3.1",
     "glob": "~4.3.2",
     "grunt": "~0.4.4",
+    "jest-cli": "^0.4.0",
     "jit-grunt": "~0.9.0",
     "load-grunt-tasks": "~2.0.0",
     "node.extend": "~1.0.10",
+    "react": "^0.13.1",
+    "react-tools": "^0.13.1",
     "time-grunt": "~1.0.0"
   }
 }
