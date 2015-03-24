@@ -14,6 +14,11 @@
       "node_modules/react"
     ]
   },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/contolini/cf-icons.git"
@@ -35,6 +40,7 @@
     "node.extend": "~1.0.10",
     "react": "^0.13.1",
     "react-tools": "^0.13.1",
+    "reactify": "^1.1.0",
     "time-grunt": "~1.0.0"
   }
 }
