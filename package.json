@@ -1,4 +1,16 @@
 {
+  "name": "cf-icons",
+  "version": "0.5.0",
+  "description": "Custom icon font for Capital Framework.",
+  "keywords": ["capital-framework", "capital", "icons", "less"],
+  "authors": [
+    {
+      "name": "Consumer Financial Protection Bureau",
+      "url": "https://cfpb.github.io/"
+    }
+  ],
+  "license": "https://github.com/cfpb/cf-icons/blob/gh-pages/TERMS.md",
+  "main": "src/less/cf-icons.less",
   "devDependencies": {
     "cf-component-demo": "git://github.com/cfpb/cf-component-demo.git#0.9.1",
     "cf-grunt-config": "~0.3.1",
