@@ -8,5 +8,8 @@
     "load-grunt-tasks": "~2.0.0",
     "node.extend": "~1.0.10",
     "time-grunt": "~1.0.0"
+  },
+  "dependencies": {
+    "cf-core": "git://github.com/contolini/cf-core.git#npm"
   }
 }
